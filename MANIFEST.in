@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include wagwan *.css
+recursive-include wagwan *.csv
+recursive-include wagwan *.html
+recursive-include wagwan *.ico
+recursive-include wagwan *.js
+recursive-include wagwan *.json
+recursive-include wagwan *.md
+recursive-include wagwan *.png
+recursive-include wagwan *.py
+recursive-include wagwan *.svg
+recursive-include wagwan *.txt
+recursive-exclude wagwan *.pyc
